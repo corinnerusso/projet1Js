@@ -11,7 +11,7 @@ body{
 /***** NAVIGATEUR *******/
 nav{
    background-color: #FAD7A0;
-   height: 90px;
+   height: 11vh;
    box-shadow: 0px 5px 10px;
    width: 100%;
 }
@@ -111,4 +111,13 @@ nav ul li a:hover{
 #menuToggle input:checked ~ ul
 {
   transform: none;
+}
+
+/**********1er BACKGROUND**********/
+.First_Background{
+   background-image: url(https://images.pexels.com/photos/338713/pexels-photo-338713.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 89vh;
+   
 }
