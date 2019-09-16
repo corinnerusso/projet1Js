@@ -7,3 +7,5 @@
 
 *police titre: Montez
 *autre police: Open Sans Condensed
+
+Objectif du projet: 1er site html / css
