@@ -6,30 +6,31 @@
 }
 
 body{
- background-color: #FAD7A0;
+   background-color: #FAD7A0;
+   text-align: center;
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 2rem;
 }
 
 /**** NAVIGATEUR ****/
 nav{
- background-color: #FAD7A0;
- height: 11vh;
- box-shadow: 0px 5px 10px;
- width: 100%;
+   background-color: #FAD7A0;
+   height: 11vh;
+   width: 100%;
 }
 
 nav ul{
- position: absolute;
- width: 300px;
- margin: -100px 0 0 -50px;
- padding: 50px;
- padding-top: 125px;
- list-style-type: none;
- -webkit-font-smoothing: antialiased;  
- transform-origin: 0% 0%;
- transform: translate(-100%, 0);
- transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
- background-color: #FAD7A0;
- box-shadow: 0px 5px 5px;
+   position: absolute;
+   width: 300px;
+   margin: -100px 0 0 -50px;
+   padding: 50px;
+   padding-top: 125px;
+   list-style-type: none;
+   -webkit-font-smoothing: antialiased;  
+   transform-origin: 0% 0%;
+   transform: translate(-100%, 0);
+   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+   background-color: #FAD7A0;
 }
 
 nav ul li{
@@ -109,27 +110,141 @@ transform: rotate(0deg) scale(0.2, 0.2);
 transform: rotate(-45deg) translate(0, -1px);
 }
 
-#menuToggle input:checked ~ ul
-{
-transform: none;
+
+#menuToggle input:checked ~ ul{
+  transform: none;
 }
+
 
 /****LOGO****/
 
+.logo{
+  width: 15vh;
+  border-radius: 50%;
+  box-shadow: 5px 10px 10px;
+  position: relative;
+  top: 50px;
+  margin-left: 10px; 
+}
+
+.flag{
+  width: 40px;
+  margin-top: 10px;
+}
+
+.container_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container_flag{
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
 
 /****1st BACKGROUND****/
 .First_Background{
- background-image: url(https://images.pexels.com/photos/338713/pexels-photo-338713.jpeg);
- background-size: cover;
- background-repeat: no-repeat;
- height: 89vh;
- 
+   background-image: url(https://freephotos.cc/storage/preview/path/kkwOahuwrVwcvcxk4FQs4cZS5jU7SKzxaEOcYcMq.jpeg);
+   background-attachment: fixed;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   height: 84vh;   
+   box-shadow: 5px 10px 10px;
 }
+
+.Main_title{
+  padding-top: 35vh;
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: 'Montez', cursive;
+  color: #C0392B;
+  text-shadow: 2px 5px 5px #FFF;
+}
+
 
 /****BODY****/
 
-/****ARROW RETURN****/
+h2{
+  color: #C0392B;
+  font-size: 2.5rem;
+  font-family: Montez; cursive;
+}
 
+h3{
+  color:white;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+#BarDescription{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+
+.TextWhiteBackground{
+  background-color: white;
+  width: 90%;
+  justify-content: center;
+  margin: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.Bridge{
+  background-image: url(https://cdn.pixabay.com/photo/2016/01/18/15/23/bordeaux-1146721_960_720.jpg);
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-position: 55% 66%;
+  height: 60vh;
+  padding-top:40vh;
+}
+
+
+.Cocktail{
+  background-image: url(https://cdn.pixabay.com/photo/2018/03/06/07/01/drink-3202709_960_720.jpg);
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-position: 55% 132%;
+  height: 60vh;
+  padding-top:30vh;
+}
+
+.BeachImage{
+  background-image: url(https://cdn.pixabay.com/photo/2016/12/05/16/28/dominican-republic-1884286_960_720.jpg);
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-position: 55% 100%;
+  height: 60vh;
+  padding-top:30vh;
+}
+
+
+.AlignImage{
+  width:100%;
+}
+a{
+  color: #C0392B;
+}
+p{
+  text-align: justify;
+  padding: 2%;
+}
+
+/****ARROW RETURN****/
+.top_return{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.arrow{
+  height: 30px;
+  background-color: #FFF;
+  border-radius: 50%;
+}
 
 /****MAP****/
 
@@ -152,7 +267,7 @@ margin-right: auto;
 }
 
 /****FORM****/
-
+le 30 septembre à 8h40.
 input{
   display: block;
   width: 90%;
