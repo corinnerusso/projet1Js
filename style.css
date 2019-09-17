@@ -8,11 +8,10 @@ body{
    background-color: #FAD7A0;
 }
 
-/***** NAVIGATEUR *******/
+/**** NAVIGATEUR ****/
 nav{
    background-color: #FAD7A0;
    height: 11vh;
-   box-shadow: 0px 5px 10px;
    width: 100%;
 }
 
@@ -28,7 +27,6 @@ nav ul{
    transform: translate(-100%, 0);
    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
    background-color: #FAD7A0;
-   box-shadow: 0px 5px 5px;
 }
 
 nav ul li{
@@ -108,16 +106,78 @@ nav ul li a:hover{
   transform: rotate(-45deg) translate(0, -1px);
 }
 
-#menuToggle input:checked ~ ul
-{
+#menuToggle input:checked ~ ul{
   transform: none;
 }
 
-/**********1er BACKGROUND**********/
+/****LOGO****/
+
+.logo{
+  width: 15vh;
+  border-radius: 50%;
+  box-shadow: 5px 10px 10px;
+  position: relative;
+  top: 50px;
+  margin-left: 10px; 
+}
+
+.flag{
+  width: 40px;
+  margin-top: 10px;
+}
+
+.container_header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container_flag{
+  margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/****1st BACKGROUND****/
 .First_Background{
-   background-image: url(https://images.pexels.com/photos/338713/pexels-photo-338713.jpeg);
+   background-image: url(https://freephotos.cc/storage/preview/path/kkwOahuwrVwcvcxk4FQs4cZS5jU7SKzxaEOcYcMq.jpeg);
+   background-attachment: fixed;
    background-size: cover;
    background-repeat: no-repeat;
-   height: 89vh;
-   
+   background-position: center;
+   height: 84vh;   
+   box-shadow: 5px 10px 10px;
 }
+
+.Main_title{
+  padding-top: 35vh;
+  text-align: center;
+  font-size: 3.5rem;
+  font-family: 'Montez', cursive;
+  color: #C0392B;
+  text-shadow: 2px 5px 5px #FFF;
+}
+
+/****BODY****/
+
+
+/****ARROW RETURN****/
+.top_return{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.arrow{
+  height: 30px;
+  background-color: #FFF;
+  border-radius: 50%;
+}
+
+/****MAP****/
+
+
+/****FORM****/
+
+
+/****FOOTER****/
