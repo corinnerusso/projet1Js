@@ -1,0 +1,207 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+   background-color: #FAD7A0;
+   text-align: center;
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 2rem;
+}
+
+
+
+/**** NAVIGATEUR ****/
+nav{
+   background-color: #FAD7A0;
+   height: 11vh;
+   box-shadow: 0px 5px 10px;
+   width: 100%;
+}
+
+nav ul{
+   position: absolute;
+   width: 300px;
+   margin: -100px 0 0 -50px;
+   padding: 50px;
+   padding-top: 125px;
+   list-style-type: none;
+   -webkit-font-smoothing: antialiased;  
+   transform-origin: 0% 0%;
+   transform: translate(-100%, 0);
+   transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+   background-color: #FAD7A0;
+   box-shadow: 0px 5px 5px;
+}
+
+nav ul li{
+   list-style-type: none;
+   padding: 10px 0;
+   font-size: 22px;
+}
+
+nav ul li a{
+   text-decoration: none;
+   color: #000;
+}
+
+nav ul li a:hover{
+  color: #C0392B;
+}
+
+#menuToggle{
+  display: block;
+  position: relative;
+  top: 35px;
+  left: 50px;  
+  z-index: 1;  
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+#menuToggle input{
+  display: block;
+  width: 40px;
+  height: 32px;
+  position: absolute;
+  top: -7px;
+  left: -5px;  
+  cursor: pointer;  
+  opacity: 0;
+  z-index: 2;  
+  -webkit-touch-callout: none;
+}
+
+#menuToggle .Toggle{
+  display: block;
+  width: 33px;
+  height: 4px;
+  margin-bottom: 5px;
+  position: relative;
+  background: #000;
+  border-radius: 3px;
+  z-index: 1;
+  transform-origin: 4px 0px;
+  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+              opacity 0.55s ease;
+}
+
+#menuToggle .Toggle:first-child{
+  transform-origin: 0% 0%;
+}
+
+#menuToggle .Toggle:nth-last-child(2){
+  transform-origin: 0% 100%;
+}
+
+#menuToggle input:checked ~ .Toggle{
+  opacity: 1;
+  transform: rotate(45deg) translate(-2px, -1px);
+  background: #232323;
+}
+
+
+#menuToggle input:checked ~ .Toggle:nth-last-child(3){
+  opacity: 0;
+  transform: rotate(0deg) scale(0.2, 0.2);
+}
+
+#menuToggle input:checked ~ .Toggle:nth-last-child(2){
+  transform: rotate(-45deg) translate(0, -1px);
+}
+
+#menuToggle input:checked ~ ul
+{
+  transform: none;
+}
+
+/**** LOGO****/
+
+/****1st BACKGROUND****/
+.First_Background{
+   background-image: url(https://images.pexels.com/photos/338713/pexels-photo-338713.jpeg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 89vh;
+   
+}
+
+/****BODY****/
+
+h2{
+  color: #C0392B;
+  font-size: 2.5rem;
+  font-family: Montez; cursive;
+}
+
+h3{
+  color:white;
+  text-shadow: 0.1em 0.1em 0.2em black;
+}
+
+#BarDescription{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+
+.TextWhiteBackground{
+  background-color: white;
+  width: 90%;
+  justify-content: center;
+  margin: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+.Bridge{
+  background-image: url(https://cdn.pixabay.com/photo/2016/01/18/15/23/bordeaux-1146721_960_720.jpg);
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-position: 55% 66%;
+  height: 60vh;
+  padding-top:40vh;
+}
+
+
+.Cocktail{
+  background-image: url(https://cdn.pixabay.com/photo/2018/03/06/07/01/drink-3202709_960_720.jpg);
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-position: 55% 132%;
+  height: 60vh;
+  padding-top:30vh;
+}
+
+.BeachImage{
+  background-image: url(https://cdn.pixabay.com/photo/2016/12/05/16/28/dominican-republic-1884286_960_720.jpg);
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  background-position: 55% 100%;
+  height: 60vh;
+  padding-top:30vh;
+}
+
+
+.AlignImage{
+  width:100%;
+}
+a{
+  color: #C0392B;
+}
+p{
+  text-align: justify;
+  padding: 2%;
+}
+
+/****ARROW RETURN****/
+
+/****MAP****/
+
+/****FORM****/
+
+/****FOOTER***/
