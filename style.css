@@ -1,7 +1,8 @@
+
 *{
-   margin: 0;
-   padding: 0;
-   box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
 }
 
 body{
@@ -33,81 +34,82 @@ nav ul{
 }
 
 nav ul li{
-   list-style-type: none;
-   padding: 10px 0;
-   font-size: 22px;
+ list-style-type: none;
+ padding: 10px 0;
+ font-size: 22px;
 }
 
 nav ul li a{
-   text-decoration: none;
-   color: #000;
+ text-decoration: none;
+ color: #000;
 }
 
 nav ul li a:hover{
-  color: #C0392B;
+color: #C0392B;
 }
 
 #menuToggle{
-  display: block;
-  position: relative;
-  top: 35px;
-  left: 50px;  
-  z-index: 1;  
-  -webkit-user-select: none;
-  user-select: none;
+display: block;
+position: relative;
+top: 35px;
+left: 50px;  
+z-index: 1;  
+-webkit-user-select: none;
+user-select: none;
 }
 
 #menuToggle input{
-  display: block;
-  width: 40px;
-  height: 32px;
-  position: absolute;
-  top: -7px;
-  left: -5px;  
-  cursor: pointer;  
-  opacity: 0;
-  z-index: 2;  
-  -webkit-touch-callout: none;
+display: block;
+width: 40px;
+height: 32px;
+position: absolute;
+top: -7px;
+left: -5px;  
+cursor: pointer;  
+opacity: 0;
+z-index: 2;  
+-webkit-touch-callout: none;
 }
 
 #menuToggle .Toggle{
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
-  position: relative;
-  background: #000;
-  border-radius: 3px;
-  z-index: 1;
-  transform-origin: 4px 0px;
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
+display: block;
+width: 33px;
+height: 4px;
+margin-bottom: 5px;
+position: relative;
+background: #000;
+border-radius: 3px;
+z-index: 1;
+transform-origin: 4px 0px;
+transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+            background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+            opacity 0.55s ease;
 }
 
 #menuToggle .Toggle:first-child{
-  transform-origin: 0% 0%;
+transform-origin: 0% 0%;
 }
 
 #menuToggle .Toggle:nth-last-child(2){
-  transform-origin: 0% 100%;
+transform-origin: 0% 100%;
 }
 
 #menuToggle input:checked ~ .Toggle{
-  opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: #232323;
+opacity: 1;
+transform: rotate(45deg) translate(-2px, -1px);
+background: #232323;
 }
 
 
 #menuToggle input:checked ~ .Toggle:nth-last-child(3){
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
+opacity: 0;
+transform: rotate(0deg) scale(0.2, 0.2);
 }
 
 #menuToggle input:checked ~ .Toggle:nth-last-child(2){
-  transform: rotate(-45deg) translate(0, -1px);
+transform: rotate(-45deg) translate(0, -1px);
 }
+
 
 #menuToggle input:checked ~ ul{
   transform: none;
@@ -161,33 +163,6 @@ nav ul li a:hover{
   text-shadow: 2px 5px 5px #FFF;
 }
 
-/****BODY****/
-
-
-/****ARROW RETURN****/
-.top_return{
-  position: fixed;
-  bottom: 10px;
-  right: 10px;
-}
-
-.arrow{
-  height: 30px;
-  background-color: #FFF;
-  border-radius: 50%;
-}
-
-/****MAP****/
-
-
-/****FORM****/
-
-
-/****FOOTER****/
-=======
-   height: 89vh;
-   
-}
 
 /****BODY****/
 
@@ -259,10 +234,112 @@ p{
 }
 
 /****ARROW RETURN****/
+.top_return{
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+.arrow{
+  height: 30px;
+  background-color: #FFF;
+  border-radius: 50%;
+}
 
 /****MAP****/
 
+.container-map{
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+.map { 
+  width: 100%;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+.google{
+  display: block;
+width: 75%;
+height: 35vh;
+margin-left: auto;
+margin-right: auto;
+}
+
 /****FORM****/
+le 30 septembre à 8h40.
+input{
+  display: block;
+  width: 90%;
+  height: 25px;
+  margin-bottom: 20px;
 
-/****FOOTER***/
+}
 
+input[type="submit"]
+{
+  margin-top: 5px;
+  margin-bottom: 5px; 
+}
+.button{
+  display: flex;
+  margin-top: 5px;
+  justify-content: flex-end;
+  padding-right: 10%;
+  height: 40px;
+  
+  }
+
+textarea{
+  display: block;
+  width: 90%;
+  height: 5em;
+}
+form{
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto; 
+  padding: 25px;
+  border: 1px solid #CCC;
+  width: 100%;
+}
+.contact{
+  background-color: lightgrey;
+}
+
+
+/****FOOTER****/
+
+footer{
+  background: black; 
+  list-style: none;
+  font-weight: bold;
+}
+
+footer a{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: stretch;
+  text-decoration: none; color: white;
+}
+footer a:hover{
+  text-decoration: underline; 
+}
+footer a img{
+height: 20px;
+width: 20px;
+background-color: #CCC
+}
+
+.link1{
+  display: flex;
+  justify-content: center;
+}
+.sn{
+  margin-left: 5px;
+  margin-right: 5px;
+
+}
