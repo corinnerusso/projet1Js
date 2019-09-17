@@ -9,7 +9,7 @@ body{
    background-color: #FAD7A0;
    text-align: center;
    font-family: 'Open Sans Condensed', sans-serif;
-   font-size: 2rem;
+   font-size: 1.5rem;
 }
 
 /**** NAVIGATEUR ****/
@@ -169,7 +169,7 @@ transform: rotate(-45deg) translate(0, -1px);
 h2{
   color: #C0392B;
   font-size: 2.5rem;
-  font-family: Montez; cursive;
+  font-family: 'Montez', cursive;
 }
 
 h3{
@@ -221,14 +221,11 @@ h3{
   padding-top:30vh;
 }
 
-
-.AlignImage{
-  width:100%;
-}
-a{
+.TextWhiteBackground a{
   color: #C0392B;
 }
-p{
+
+section p{
   text-align: justify;
   padding: 2%;
 }
@@ -281,18 +278,19 @@ input[type="submit"]
   margin-top: 5px;
   margin-bottom: 5px; 
 }
+
+
 .button{
   display: flex;
   margin-top: 5px;
   justify-content: flex-end;
-  padding-right: 10%;
   height: 40px;
   
   }
 
 textarea{
   display: block;
-  width: 90%;
+  width: 100%;
   height: 5em;
 }
 form{
@@ -311,9 +309,12 @@ form{
 /****FOOTER****/
 
 footer{
+  padding-top: 2%;
+  padding-bottom: 2%;
   background: black; 
   list-style: none;
   font-weight: bold;
+  font-size: 1rem;
 }
 
 footer a{
@@ -329,9 +330,9 @@ footer a:hover{
   text-decoration: underline; 
 }
 footer a img{
-height: 20px;
-width: 20px;
-background-color: #CCC
+  height: 40px;
+  width: 40px;
+  background-color: #CCC
 }
 
 .link1{
@@ -339,7 +340,5 @@ background-color: #CCC
   justify-content: center;
 }
 .sn{
-  margin-left: 5px;
-  margin-right: 5px;
-
+  margin: 10px;
 }
