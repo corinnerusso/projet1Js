@@ -6,6 +6,14 @@
 
 body{
    background-color: #FAD7A0;
+   text-align: center;
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 2rem;
+}
+
+h1{
+  color: #C0392B;
+  font-size: 3rem;
 }
 
 /***** NAVIGATEUR *******/
@@ -120,4 +128,30 @@ nav ul li a:hover{
    background-repeat: no-repeat;
    height: 89vh;
    
+}
+
+
+/**********BODY**********/
+
+#BarDescription{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+
+.TextWhiteBackground{
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  justify-content: center;
+  margin: 5%;
+}
+.AlignImage{
+  width:100%;
+}
+
+a{
+  color: #C0392B;
 }
