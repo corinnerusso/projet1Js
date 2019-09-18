@@ -440,6 +440,7 @@ footer a img{
     top:0;
     background-color: #FAD7A0;
     box-shadow: 10px 5px 10px;
+    z-index: 9;
   }
 
   .nav_head ul{
