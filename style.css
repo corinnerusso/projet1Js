@@ -266,6 +266,11 @@ h3{
   border-radius: 50%;
 }
 
+/****AUDIO****/
+.Chicken{
+  display: none;
+}
+
 /****MAP****/
 
 .container-map{
@@ -399,6 +404,22 @@ footer a img{
 }
 
 /****Media****/
+  
+/****Landscape****/
+
+@media only screen and (orientation: Landscape) and (max-device-width: 961px){
+  .container_header{
+    height: 25vh;
+    }
+  
+  #menuToggle{
+    top: 15px;
+    }
+  
+  .logo{
+    width: 38vh;
+    }
+  }
 
 @media only screen and (min-width:961px){
 
@@ -480,6 +501,10 @@ footer a img{
     height: 50px;
   }
 
+  /****AUDIO****/
+.Chicken{
+  display: block;
+}
   /****Corinne****/
 
   h2{
@@ -601,19 +626,4 @@ footer a img{
     margin-bottom: 10px;
     margin-top: 10px;
     
-  }
-
-  /****Landscape****/
-  @media only screen and (orientation: Landscape) and (max-device-width: 961px){
-    .container_header{
-      height: 25vh;
-    }
-  
-    #menuToggle{
-      top: 15px;
-      }
-  
-    .logo{
-      width: 38vh;
-    }
   }
