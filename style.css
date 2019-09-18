@@ -266,6 +266,11 @@ h3{
   border-radius: 50%;
 }
 
+/****AUDIO****/
+.Chicken{
+  display: none;
+}
+
 /****MAP****/
 
 .container-map{
@@ -324,8 +329,8 @@ h3{
 
 input{
   display: block;
-  width: 90%;
-  height: 25px;
+  width: 100%;
+  height: 45px;
   margin-bottom: 20px;
 
 }
@@ -402,6 +407,22 @@ footer a img{
 }
 
 /****Media****/
+  
+/****Landscape****/
+
+@media only screen and (orientation: Landscape) and (max-device-width: 961px){
+  .container_header{
+    height: 25vh;
+    }
+  
+  #menuToggle{
+    top: 15px;
+    }
+  
+  .logo{
+    width: 38vh;
+    }
+  }
 
 @media only screen and (min-width:961px){
 
@@ -422,6 +443,7 @@ footer a img{
     top:0;
     background-color: #FAD7A0;
     box-shadow: 10px 5px 10px;
+    z-index: 9;
   }
 
   .nav_head ul{
@@ -483,6 +505,10 @@ footer a img{
     height: 50px;
   }
 
+  /****AUDIO****/
+.Chicken{
+  display: block;
+}
   /****Corinne****/
 
   h2{
@@ -491,7 +517,7 @@ footer a img{
   }
 
   h3{
-    font-size:7rem;
+    font-size:5rem;
   }
   section p{
     text-align:center;
@@ -604,6 +630,8 @@ footer a img{
   .link a{
     margin-bottom: 10px;
     margin-top: 10px;
+
+    
   }
   
 
@@ -621,3 +649,9 @@ footer a img{
       width: 38vh;
     }
   }
+
+  /****People****/
+  @media only screen and (max-width:1600px){
+    .People{
+      display: none;
+    }
