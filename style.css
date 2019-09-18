@@ -514,7 +514,7 @@ footer a img{
   }
 
   h3{
-    font-size:7rem;
+    font-size:5rem;
   }
   section p{
     text-align:center;
@@ -627,4 +627,26 @@ footer a img{
     margin-bottom: 10px;
     margin-top: 10px;
     
+
   }
+
+  /****Landscape****/
+  @media only screen and (orientation: Landscape) and (max-device-width: 961px){
+    .container_header{
+      height: 25vh;
+    }
+  
+    #menuToggle{
+      top: 15px;
+      }
+  
+    .logo{
+      width: 38vh;
+    }
+  }
+
+  /****People****/
+  @media only screen and (max-width:1600px){
+    .People{
+      display: none;
+    }
