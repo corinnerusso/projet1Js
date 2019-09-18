@@ -141,6 +141,7 @@ transform: rotate(-45deg) translate(0, -1px);
   position: sticky;
   top: 0;
   background-color: #FAD7A0;
+  box-shadow: 5px 10px 10px;
 }
 .container_flag{
   margin-right: 10px;
