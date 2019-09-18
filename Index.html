@@ -12,14 +12,14 @@
   </head>
   
   <body>
-   
+  <div id="Top_page"></div> 
     <!--NAVIGATEUR BENJ-->
     
-    <div class="container_header" id="Top_page">
+    <div class="container_header">
 
       <div class="navigator">
 
-        <nav role="navigation">
+        <nav class="nav" role="navigation">
           <div id="menuToggle">
             <input type="checkbox" />
             <span class="Toggle"></span>
@@ -27,11 +27,11 @@
             <span class="Toggle"></span>
         
             <ul id="menu">
-              <li><a href="#">Notre bar</a></li>
-              <li><a href="#">Nos soirées</a></li>
-              <li><a href="#">La carte</a></li>
-              <li><a href="#">Nous trouver</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#BarDescription">Notre bar</a></li>
+              <li><a href="#NightsDescription">Nos soirées</a></li>
+              <li><a href="#MenuDescription">La carte</a></li>
+              <li><a href="#Find_us">Nous trouver</a></li>
+              <li><a href="#Localisation">Contact</a></li>
             </ul>
           </div>
         </nav>
@@ -48,16 +48,41 @@
 
     </div>
 
+    <div class="container_header_desktop">
+
+      <div class="header_desktop">
+
+        <nav class="nav_head">
+          <ul>
+              <li>
+                  <img class="logo_desktop" alt="Logo" src="https://scontent-cdg2-1.xx.fbcdn.net/v/t1.0-9/23472956_1976070005998792_9220504103692121714_n.jpg?_nc_cat=105&amp;_nc_oc=AQngYtPXZSV_nuGHj8LvE3VO5ot7wKCYZmi7bzPgq1b3hzNGxH9j6uh6xPInR7-leT0&amp;_nc_ht=scontent-cdg2-1.xx&amp;oh=91f8b1637dae75f1185fb7b6d8743876&amp;oe=5DF4B2B7">
+              </li>
+              <li><a href="#Bar">Notre bar</a></li>
+              <li><a href="#Nights">Nos soirées</a></li>
+              <li><a href="#MenuInfo">La carte</a></li>
+              <li><a href="#WeAre">Nous trouver</a></li>
+              <li><a href="#There">Contact</a></li>
+          </ul>
+        </nav>
+
+      </div>
+
+    </div>
+
     
     
     <!--ACCROCHE BENJ-->
     <section class="First_Background">
+      <div class="container_flag_Desktop">
+        <a href="Index.html" alt="Version fr"><img class="flag" alt="Flag_fr" src="https://cdn.pixabay.com/photo/2012/04/11/15/19/france-28463_960_720.png"></a>
+        <a href="#" alt="Version_en"><img class="flag" alt="Flag_eng" src="https://cdn.pixabay.com/photo/2015/11/06/13/29/union-jack-1027898_960_720.jpg"></a>
+      </div>
       <h1 class="Main_title">Punta Cana Bar</h1>
     </section>
 
     <!--Encadre Descriptif bar CORINNE-->
     <section id="BarDescription">
-      <div>
+      <div id="Bar">
         <div class="TextWhiteBackground"> 
           <div class="Description">        
             <h2>La République Dominicaine à Bordeaux</h2>
@@ -76,7 +101,7 @@
 
 
     <section class="Bridge">
-      <div>
+      <div id="Nights">
 
       </div>
     </section>
@@ -99,7 +124,7 @@
     
     <!--BANDEAU SOIREE CORINNE-->
     <section class= Cocktail>
-      <h3>Venez déguster nos nombreux cocktails</h3>        
+      <h3 id="MenuInfo">Venez déguster nos nombreux cocktails</h3>        
     </section>
 
 
@@ -118,11 +143,11 @@
 
     <!--BANDEAU CARTE CORINNE-->
     <section class="BeachImage">  
-        <h3>Venez nous rejoindre au Punta Cana Bar </h3>
+        <h3 id="WeAre">Venez nous rejoindre au Punta Cana Bar </h3>
     </section>
     
     <!-- MAP GOOGLE RICHARD-->
-    <section>
+    <section id="Find_us">
       <h2>Où nous trouver</h2>
       <div class="container-map">
         <div class="map">
@@ -134,7 +159,8 @@
     
     <!--FORMULAIRE RICHARD-->
     <section class="contact">
-      <h2>Nous contacter</h2>
+      <div id="There"></div>
+      <h2 id="Localisation">Nous contacter</h2>
 
       <form action="my-handling-form-page" method="post">
         <div>
@@ -162,6 +188,18 @@
         <a href="#Top_page" alt="Top"><img class="arrow" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" alt="Retrun_top"></a>
       </div>
     </section>
+
+    <!--AUDIO-->
+    <figure class="Chicken">
+        <figcaption>Mettez du Fun dans votre Vie! Et des licornes!</figcaption>
+        <audio
+            controls
+            src="If_I_Had_a_Chicken.mp3">
+                Your browser does not support the
+                <code>audio</code> element.
+        </audio>
+    </figure>
+    
     
     <!--FOOTER RICHARD-->
    <footer>
