@@ -225,10 +225,6 @@ h3{
   color: #C0392B;
 }
 
-section p{
-  text-align: justify;
-  padding: 2%;
-}
 
 /****ARROW RETURN****/
 .top_return{
@@ -262,7 +258,38 @@ height: 35vh;
 margin-left: auto;
 margin-right: auto;
 }
+.adress{
+  background-color: white;
+  width: 90%;
+  margin: 5%;
+  padding-top: 5%;
+  padding-bottom: 5%;
 
+}
+
+
+.adress a{
+  text-decoration: none;
+  color: #C0392B;
+}
+.adress a:hover{
+  text-decoration: underline; 
+  
+}
+.adress h4 p{
+  display: flex;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5rem;
+
+}
+
+.infos{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
 /****FORM****/
 le 30 septembre à 8h40.
 input{
@@ -306,6 +333,7 @@ form{
 }
 
 
+
 /****FOOTER****/
 
 footer{
@@ -341,4 +369,80 @@ footer a img{
 }
 .sn{
   margin: 10px;
+}
+
+
+@media only screen and (min-width: 961px){
+
+/****Benj****/
+
+/****Corinne****/
+
+
+/****Richard****/
+
+
+.parent{ 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.link{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+.link1{
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+input{
+  display: block;
+  width:70%;
+  height: 25px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+input[type="submit"]
+{
+  margin-top: 5px;
+  margin-bottom: 5px; 
+}
+
+
+.button{
+  display: flex;
+  margin-top: 5px;
+  justify-content: flex-end;
+  height: 40px;
+  
+  }
+
+textarea{
+  display: block;
+  width: 70%;
+  height: 7em;
+  margin-left: auto;
+  margin-right: auto;
+}
+label{
+  display: flex;
+  padding-left: 15%;
+}
+.button{
+  justify-content: flex-end;
+  padding-right: 15%;
+}
+footer{
+  font-size: 1.5rem;
+}
+.link a{
+  margin-bottom: 10px;
+  margin-top: 10px;
+  
+}
 }
