@@ -200,13 +200,26 @@ h3{
   margin: 5%;
   padding-top: 5%;
   padding-bottom: 5%;
+  padding: 5%;
 }
 
+.TextWhiteBackground p{
+  padding: 2%;
+  text-align: justify;
+}
+
+.FourImages{
+  display: none;
+}
 .Bridge{
   background-image: url(https://cdn.pixabay.com/photo/2016/01/18/15/23/bordeaux-1146721_960_720.jpg);
   background-attachment: fixed;
   background-repeat:no-repeat;
+<<<<<<< HEAD
   background-size: cover; 
+=======
+  background-size: cover;
+>>>>>>> DesktopBody
   background-position: 55% 66%;
   height: 60vh;
   padding-top:40vh;
@@ -218,7 +231,11 @@ h3{
   background-attachment: fixed;
   background-repeat:no-repeat;
   background-size: cover;
+<<<<<<< HEAD
   background-position: 55% 132%;
+=======
+  background-position: 48% 132%;
+>>>>>>> DesktopBody
   height: 60vh;
   padding-top:30vh;
 }
@@ -237,9 +254,13 @@ h3{
   color: #C0392B;
 }
 
-section p{
-  text-align: justify;
-  padding: 2%;
+
+.NightsImages{
+  display: none;
+}
+
+.People{
+  display: none;
 }
 
 /****ARROW RETURN****/
@@ -348,7 +369,7 @@ footer a img{
 }
 
 .link1{
-  display: flex;
+  display: inline-block;
   justify-content: center;
 }
 .sn{
@@ -358,8 +379,8 @@ footer a img{
 /****Media****/
 
 @media only screen and (min-width:961px){
+
   /****Benj****/
-  
   /****BURGER****/
 
   .container_header{
@@ -431,29 +452,82 @@ footer a img{
     right: 2vw;;
     z-index: inherit; 
   }
+  
   /****ARROW****/
   .arrow{
     height: 50px;
-  } 
+  }
 
   /****Corinne****/
 
+  h2{
+    font-size: 4rem;
+    padding-bottom: 3%;
+  }
+
+  h3{
+    font-size:7rem;
+  }
+  section p{
+    text-align:center;
+    font-size: 3rem;
+    padding:2%;
+  }
+
+  .NightsImages{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .NightsIm{
+    padding-left: 10%;
+    height: 60vh;
+    width: 60vh;
+    padding-top: 10%;
+}
+  
+  .Image1and2{
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-bottom: 1%;
+  }
+
+  .Nights{
+    display:flex;
+    flex-direction: center;
+
+  }
+  .People{
+    display: flex;
+    margin-top: 5%;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
+  .TextWhiteBackground a{
+    font-size:3rem;
+  }
+
+  .TextWhiteBackground p{
+    text-align: center;
+  }
+
+
   /****Richard****/
-
-}
-
-/****Landscape****/
-
-@media only screen and (orientation: Landscape) and (max-device-width: 961px){
-  .container_header{
-    height: 25vh;
-  }
-
-  #menuToggle{
-    top: 15px;
+  /****Landscape****/
+  @media only screen and (orientation: Landscape) and (max-device-width: 961px){
+    .container_header{
+      height: 25vh;
     }
-
-  .logo{
-    width: 38vh;
+  
+    #menuToggle{
+      top: 15px;
+      }
+  
+    .logo{
+      width: 38vh;
+    }
   }
-}
+
