@@ -5,7 +5,7 @@
  box-sizing: border-box;
 }
 
-body{
+body{ 
    background-color: #FAD7A0;
    text-align: center;
    font-family: 'Open Sans Condensed', sans-serif;
@@ -184,6 +184,9 @@ h2{
 h3{
   color:white;
   text-shadow: 0.1em 0.1em 0.2em black;
+}
+h4{
+  color: #C0392B;
 }
 
 #BarDescription{
@@ -367,7 +370,10 @@ form{
   background-color: lightgrey;
 }
 
-
+::placeholder {
+  
+  font-size: 1.5em;
+}
 
 /****FOOTER****/
 
@@ -479,6 +485,7 @@ footer a img{
     box-shadow: 5px 10px 10px;
   }
 
+
   /**** TITRE PAGE ****/
 
   .Main_title{
@@ -508,7 +515,7 @@ footer a img{
   /****AUDIO****/
 .Chicken{
   display: block;
-}
+  }
   /****Corinne****/
 
   h2{
@@ -536,7 +543,7 @@ footer a img{
     height: 60vh;
     width: 60vh;
     padding-top: 10%;
-}
+  }
   
   .Image1and2{
     display:flex;
@@ -555,7 +562,7 @@ footer a img{
     margin-top: 5%;
     margin-right: 2%;
     margin-bottom: 5%;
-}
+  }
 
   .TextWhiteBackground a{
     font-size:3rem;
@@ -630,10 +637,32 @@ footer a img{
   .link a{
     margin-bottom: 10px;
     margin-top: 10px;
-
-    
   }
+
+  /****EFFECTS****/
+
+  /**** Rotation logo ****/
+
+  .Effect_logo .logo_desktop {
+  transition: all 0.5s ease;
+  } 
+  .Effect_logo:hover .logo_desktop {
+  transform: rotateY(360deg);
+  }
+
+  .NigthsIm {
+    transform: scale(1);
+    transition: all 0.5s ease; 
+  }
+  .NightsIm:hover {
+    transform: scale(1.15);
+
+  }
+
+}
   
+
+
 
   /****Landscape****/
   @media only screen and (orientation: Landscape) and (max-device-width: 961px){
