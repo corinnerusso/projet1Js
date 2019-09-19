@@ -185,6 +185,9 @@ h3{
   color:white;
   text-shadow: 0.1em 0.1em 0.2em black;
 }
+h4{
+  color: #C0392B;
+}
 
 #BarDescription{
   display: flex;
@@ -367,7 +370,10 @@ form{
   background-color: lightgrey;
 }
 
-
+::placeholder {
+  
+  font-size: 1.5em;
+}
 
 /****FOOTER****/
 
