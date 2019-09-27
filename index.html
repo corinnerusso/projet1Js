@@ -15,7 +15,7 @@
   
   <body>
   <div id="Top_page"></div> 
-    <!--NAVIGATEUR BENJ-->
+    <!--NAVIGATEUR -->
     
     <div class="container_header">
 
@@ -75,7 +75,7 @@
 
     
     
-    <!--ACCROCHE BENJ-->
+    <!--TITRE PUNTA CANA-->
     <section class="First_Background">
       <div class="container_flag_Desktop">
         <a href="Index.html"><img class="flag" alt="Flag_fr" src="https://cdn.pixabay.com/photo/2012/04/11/15/19/france-28463_960_720.png"></a>
@@ -84,7 +84,7 @@
       <h1 class="Main_title">Punta Cana Bar</h1>
     </section>
 
-    <!--Encadre Descriptif bar CORINNE-->
+    <!-- DESCRIPTIF BAR-->
     <section id="BarDescription">
       <div id="Bar">
         <div class="TextWhiteBackground"> 
@@ -101,7 +101,7 @@
       </div>   
     </section>
     
-    <!--BANDEAU DESCRIPTIF CORINNE-->
+    <!--BANDEAU DESCRIPTIF -->
 
 
     <section class="Bridge">
@@ -111,7 +111,7 @@
     </section>
 
     
-    <!--ENCADRE DESCRIPTIF SOIREE CORINNE-->
+    <!-- DESCRIPTIF SOIREE -->
 
 
     <section id="NightsDescription">
@@ -153,13 +153,13 @@
       </div>
     </section>
     
-    <!--BANDEAU SOIREE CORINNE-->
+    <!--BANDEAU SOIREE -->
     <section class= Cocktail>
       <h3 id="MenuInfo">Venez déguster nos nombreux cocktails</h3>        
     </section>
 
 
-    <!--ENCADRE DESCRITIF CARTE CORINNE-->
+    <!-- DESCRITIF CARTE -->
     <section id="MenuDescription">
       <div>
         <div class="TextWhiteBackground">         
@@ -172,12 +172,12 @@
       </div>
     </section>
 
-    <!--BANDEAU CARTE CORINNE-->
+    <!--BANDEAU CARTE -->
     <section class="BeachImage">  
         <h3 id="WeAre">Venez nous rejoindre au Punta Cana Bar </h3>
     </section>
     
-    <!-- MAP GOOGLE RICHARD-->
+    <!-- HORAIRES OUVERTURE -->
 
     <section class=adress>
       <h2 id="Find_us">Nos coordonnées</h2>
@@ -203,13 +203,13 @@
          </div>
       </div>
               
-          
+    <!--COORDONNEES -->      
         <h4>Adresse:</h4>
           <p> 1 Quai Deschamps, 33100 Bordeaux</p>
         <h4>Téléphone:</h4>
           <p>+33 6 58 50 03 32</p>
       
-
+    <!-- GOOGLE MAP-->    
       <div class="container-map">
         <div class="map">
           <iframe class="google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2379.0020623525256!2d-0.5624534004934056!3d44.83936364853308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd5526320ac42e31%3A0x446e62f5b8ba5848!2sPunta%20Cana%20Bar!5e0!3m2!1sfr!2sfr!4v1568632872802!5m2!1sfr!2sfr">
@@ -218,12 +218,12 @@
       </div>
     </section>
     
-    <!--FORMULAIRE RICHARD-->
+    <!--FORMULAIRE -->
     <section class="contact">
       <div id="There"></div>
       <h2 id="Localisation">Nous contacter</h2>
 
-      <form action="my-handling-form-page" method="post">
+      <form>
         <div>
           <label for="name">Name :</label>
           <input type="text" id="name" name="user_name">
@@ -237,13 +237,19 @@
               <textarea id="message" name="user_message" placeholder="Tu aimes les licornes?"></textarea>
         </div>
         <div class="button">
-             <button type="submit">Envoyer le message</button>
+             <button type="submit" onclick='buttonFunction()'>Envoyer le message</button>
         </div>
       </form>
       
     </section>
+
+    <!-- BOUTTON APPARITION FORMULAIRE-->
+
+    <div id="formButton">
+      <button type="submit"> Accéder au formulaire</button>
+    </div>
     
-    <!--FLECHE PAGE BENJAMIN-->
+    <!--FLECHE RETOUR EN HAUT-->
     <section>
       <div class="top_return">
         <a href="#Top_page"><img class="arrow" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646212_960_720.png" alt="Retrun_top"></a>
@@ -261,7 +267,7 @@
     </figure>
     
     
-    <!--FOOTER RICHARD-->
+    <!--FOOTER -->
    <footer>
         <div class="parent">
             <div class="link">
@@ -279,7 +285,7 @@
             </div>    
         </div>
     </footer>
-    
+    <script src="script.js"> </script>
    </body>
 </html>
 

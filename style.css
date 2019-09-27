@@ -367,6 +367,7 @@ form{
   width: 100%;
 }
 .contact{
+  display:none;
   background-color: lightgrey;
 }
 
